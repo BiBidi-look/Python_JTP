@@ -33,7 +33,7 @@ while True:
 f.close()
 
 
-
+print('동기화를 해보았다.')
 
 
 
