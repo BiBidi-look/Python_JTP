@@ -125,13 +125,11 @@ b=a.replace("Life", "leg")
 print(b)    
 
 a = "Life is too short"
-b=a.split()
+b=a.split() #아무말없으면 공백을 기준으로 문자열을 나누어준다. 결과는 리스트로 반환한다.
 print(b)
 c="a:b:c:d"
-d=c.split(":")
+d=c.split(":") # ":"을 기준으로 문자열을 나눠주었다.
 print(d)
 
-
-print
 
 print("="*50)
